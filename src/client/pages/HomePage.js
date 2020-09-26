@@ -24,10 +24,7 @@ const HomePage = props => {
   const renderArticles = () => {
     return props.articles.map(article => (
       <div className="col s12 m6 l6 xl4" key={article.title}>
-
-      <div className="deneme">
-      Reprehenderit quis ipsum nulla veniam sint magna ullamco ex laborum eu occaecat. Qui Lorem anim do aliquip et elit commodo dolor aliquip aliqua eu. Elit nostrud tempor mollit Lorem id cupidatat incididunt amet est commodo laboris consectetur occaecat sint. Aute ad minim incididunt mollit nisi ex eu eu id dolore magna eu ad enim. Voluptate et aliqua cillum Lorem aliqua adipisicing aliquip laboris officia. Fugiat anim qui aute ex ullamco exercitation. Occaecat dolor ullamco id elit adipisicing non labore sit commodo sit culpa est ad.
-      </div>
+      
         <div className="card large">
           <div className="card-image">
             <LazyLoadImage alt={article.title} src={article.urlToImage} />

@@ -1,253 +1,389 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  .custom_hr {
-    height: 10px;
-    background: #ff0084; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #33001b,
-      #ff0084
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #33001b,
-      #ff0084
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-  .topnav {
-    background-color: #fff;
-    box-shadow: 0 4px 30px -1px rgb(204, 204, 204);
-    overflow: hidden;
-    align-items: center;
-    height: 75px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .navbar {
-    background-color: #f5f5f5;
-    box-shadow: 0 4px 30px -1px rgb(204, 204, 204);
-    overflow: hidden;
-    align-items: center;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .footer {
-    background-color: #f5f5f5;
-    box-shadow: 0 4px 30px -1px rgb(204, 204, 204);
-    overflow: hidden;
-    align-items: center;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navbar a {
-    color: #fe3a56;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
-      Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -0.28px;
-    padding: 5px 16px;
-    text-decoration: none;
-    font-size: 14px;
-  }
+.html{
+background-color: #fe3a56;
+}
 
-  .navbar a:hover {
-    color: #fe3a56;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
-      Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -0.28px;
-    padding: 5px 16px;
-    text-decoration: none;
-    font-size: 14px;
-    border: solid 1px;
-    border-radius: 40px;
-    color: #fe3a56;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-  
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
-      Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -0.28px;
-    padding: 5px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border: solid 1px;
-    border-radius: 40px;
-    color: #fe3a56;
-  }
+.custom_hr {
+  height: 10px;
+  background: #ff0084; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #33001b,
+    #ff0084
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #33001b,
+    #ff0084
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.topnav {
+  background-color: #fff;
+  box-shadow: 0 4px 30px -1px rgb(204, 204, 204);
+  overflow: hidden;
+  align-items: center;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 30px -1px rgb(204, 204, 204);
+  align-items: center;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  
-  
-  #logo {
-    float: left;
-    display: block;
-    color: #fe3a56;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  #logo_modal {
-    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
-      Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-    margin-top: 40px;
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -0.28px;
-    float: center;
-    display: block;
-    color: #fe3a56;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    margin-bottom: 40px;
-  }
-  
-  .dash {
-    display: block;
-    height: 6px;
-    padding: 10px 20px;
-    border-bottom: 1px solid rgb(227, 227, 227);
-  }
-  
-  .dash span {
-    padding: 0px 20px;
-    background: rgb(255, 255, 255);
-  }
-  
-  .social_buttons {
-    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
-      Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-    font-weight: 400;
-    line-height: 1.8;
-    letter-spacing: -0.28px;
-    text-align: center;
-    width: 80%;
-    margin-top: 15px;
-    padding-top: 5px;
-    padding-left: 5px;
-    border: none;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 20px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  .topnav .icon {
+.footer {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 30px -1px rgb(204, 204, 204);
+  overflow: hidden;
+  align-items: center;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.28px;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid 1px;
+  border-radius: 40px;
+  color: #fe3a56;
+}
+
+.custom-circle {
+  float: right;
+
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.28px;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid 1px;
+  border-radius: 40px;
+  color: #fe3a56;
+}
+
+#logo {
+  float: left;
+  display: block;
+  color: #fe3a56;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#logo_modal {
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  margin-top: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.28px;
+  float: center;
+  display: block;
+  color: #fe3a56;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.dash {
+  display: block;
+  height: 6px;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.dash span {
+  padding: 0px 20px;
+  background: rgb(255, 255, 255);
+}
+
+.social_buttons {
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: -0.28px;
+  text-align: center;
+  width: 80%;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
     display: none;
   }
-  
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {
-      position: relative;
-    }
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-  
-  .giris_modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  }
-  
-  .modal_fade {
-    display: "flex";
-    justify-content: "center";
-    text-align: "center";
-    animation: fadeIn ease 4s;
-    -webkit-animation: fadeIn ease 4s;
-    -moz-animation: fadeIn ease 4s;
-    -o-animation: fadeIn ease 4s;
-    -ms-animation: fadeIn ease 4s;
-  }
-  
-  
-  .giris_modal_content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 450px;
-    height: 600px;
-    border-radius: 10px;
-  }
-  
-  .giris_modal_content_eposta{
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 450px;
-    height: 450px;
-    border-radius: 10px;
-  }
-  
-  .giris_modal_close {
-    color: #aaaaaa;
+  .topnav a.icon {
     float: right;
-    font-size: 28px;
-    font-weight: bold;
+    display: block;
   }
-  
-  .giris_modal_close:hover,
-  .giris_modal_close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
   }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
+.giris_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.sidebar {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
 
+.modal_fade {
+  display: "flex";
+  justify-content: "center";
+  text-align: "center";
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+.sidebar-content {
+  position: fixed; /* Stay in place */
+  z-index: 0; /* Sit on top */
+  top: 0;
+  right: 0px;
+  background-color: #fefefe;
+  border-right: 1px solid #fefefe;
+  width: 250px;
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
 
+.sidebar-content a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
+.sidebar-user-section {
+  background-color: #fe3a56;
+  height: 200px;
+  padding: 8px 8px 8px 32px;
+}
 
+.giris_modal_content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 450px;
+  height: 600px;
+  border-radius: 10px;
+}
 
+.giris_modal_content_eposta {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vYnVpbGQvc3R5bGVzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFNBQVM7SUFDVCxVQUFVO0VBQ1o7RUFDQTtJQUNFLFlBQVk7SUFDWixtQkFBbUIsRUFBRSw4QkFBOEI7SUFDbkQ7Ozs7S0FBMkYsRUFBRSwrQkFBK0I7SUFDNUg7Ozs7S0FBbUYsRUFBRSxxRUFBcUU7RUFDNUo7RUFDQTtJQUNFLHNCQUFzQjtJQUN0Qiw4Q0FBOEM7SUFDOUMsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtJQUNuQixZQUFZO0lBQ1osYUFBYTtJQUNiLDZCQUE2QjtFQUMvQjtFQUNBO0lBQ0UseUJBQXlCO0lBQ3pCLDhDQUE4QztJQUM5QyxnQkFBZ0I7SUFDaEIsbUJBQW1CO0lBQ25CLFlBQVk7SUFDWixhQUFhO0lBQ2IscUJBQXFCO0VBQ3ZCOztFQUVBO0lBQ0UsY0FBYztJQUNkLGtCQUFrQjtJQUNsQjs2RUFDeUU7SUFDekUsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQix1QkFBdUI7SUFDdkIsaUJBQWlCO0lBQ2pCLHFCQUFxQjtJQUNyQixlQUFlO0VBQ2pCOztFQUVBLDhDQUE4QztFQUM5QztJQUNFLFlBQVk7O0lBRVosa0JBQWtCO0lBQ2xCOzZFQUN5RTtJQUN6RSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLHVCQUF1QjtJQUN2QixpQkFBaUI7SUFDakIscUJBQXFCO0lBQ3JCLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsbUJBQW1CO0lBQ25CLGNBQWM7RUFDaEI7O0VBRUE7SUFDRSxXQUFXO0lBQ1gsY0FBYztJQUNkLGNBQWM7SUFDZCxrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakI7O0VBRUE7SUFDRTs2RUFDeUU7SUFDekUsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQixnQkFBZ0I7SUFDaEIsdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixjQUFjO0lBQ2QsY0FBYztJQUNkLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsZUFBZTtJQUNmLG1CQUFtQjtFQUNyQjs7RUFFQTtJQUNFLGNBQWM7SUFDZCxXQUFXO0lBQ1gsa0JBQWtCO0lBQ2xCLDJDQUEyQztFQUM3Qzs7RUFFQTtJQUNFLGlCQUFpQjtJQUNqQiw4QkFBOEI7RUFDaEM7O0VBRUE7SUFDRTs2RUFDeUU7SUFDekUsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQix1QkFBdUI7SUFDdkIsa0JBQWtCO0lBQ2xCLFVBQVU7SUFDVixnQkFBZ0I7SUFDaEIsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixZQUFZO0lBQ1osbUJBQW1CO0lBQ25CLFdBQVc7SUFDWCxlQUFlO0VBQ2pCOztFQUVBLHVDQUF1QztFQUN2QztJQUNFLHNCQUFzQjtJQUN0QixZQUFZO0VBQ2Q7RUFDQTtJQUNFLGFBQWE7RUFDZjs7RUFFQTtJQUNFO01BQ0UsYUFBYTtJQUNmO0lBQ0E7TUFDRSxZQUFZO01BQ1osY0FBYztJQUNoQjtFQUNGOztFQUVBLGtOQUFrTjtFQUNsTjtJQUNFO01BQ0Usa0JBQWtCO0lBQ3BCO0lBQ0E7TUFDRSxrQkFBa0I7TUFDbEIsUUFBUTtNQUNSLE1BQU07SUFDUjtJQUNBO01BQ0UsV0FBVztNQUNYLGNBQWM7TUFDZCxnQkFBZ0I7SUFDbEI7RUFDRjs7RUFFQTtJQUNFLGFBQWEsRUFBRSxzQkFBc0I7SUFDckMsZUFBZSxFQUFFLGtCQUFrQjtJQUNuQyxVQUFVLEVBQUUsZUFBZTtJQUMzQixrQkFBa0IsRUFBRSx3QkFBd0I7SUFDNUMsT0FBTztJQUNQLE1BQU07SUFDTixXQUFXLEVBQUUsZUFBZTtJQUM1QixZQUFZLEVBQUUsZ0JBQWdCO0lBQzlCLGNBQWMsRUFBRSw0QkFBNEI7SUFDNUMsOEJBQThCLEVBQUUsbUJBQW1CO0lBQ25ELG9DQUFvQyxFQUFFLHFCQUFxQjtFQUM3RDs7RUFFQTtJQUNFLGVBQWU7SUFDZix5QkFBeUI7SUFDekIsb0JBQW9CO0lBQ3BCLHlCQUF5QjtJQUN6QixpQ0FBaUM7SUFDakMsOEJBQThCO0lBQzlCLDRCQUE0QjtJQUM1Qiw2QkFBNkI7RUFDL0I7RUFDQTtJQUNFO01BQ0UsVUFBVTtJQUNaO0lBQ0E7TUFDRSxVQUFVO0lBQ1o7RUFDRjs7RUFFQTtJQUNFO01BQ0UsVUFBVTtJQUNaO0lBQ0E7TUFDRSxVQUFVO0lBQ1o7RUFDRjs7RUFFQTtJQUNFO01BQ0UsVUFBVTtJQUNaO0lBQ0E7TUFDRSxVQUFVO0lBQ1o7RUFDRjs7RUFFQTtJQUNFO01BQ0UsVUFBVTtJQUNaO0lBQ0E7TUFDRSxVQUFVO0lBQ1o7RUFDRjs7RUFFQTtJQUNFO01BQ0UsVUFBVTtJQUNaO0lBQ0E7TUFDRSxVQUFVO0lBQ1o7RUFDRjs7RUFFQTtJQUNFLHlCQUF5QjtJQUN6QixZQUFZO0lBQ1osYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixZQUFZO0lBQ1osYUFBYTtJQUNiLG1CQUFtQjtFQUNyQjs7RUFFQTtJQUNFLHlCQUF5QjtJQUN6QixZQUFZO0lBQ1osYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixZQUFZO0lBQ1osYUFBYTtJQUNiLG1CQUFtQjtFQUNyQjs7RUFFQTtJQUNFLGNBQWM7SUFDZCxZQUFZO0lBQ1osZUFBZTtJQUNmLGlCQUFpQjtFQUNuQjs7RUFFQTs7SUFFRSxXQUFXO0lBQ1gscUJBQXFCO0lBQ3JCLGVBQWU7RUFDakIiLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogMDtcclxuICB9XHJcbiAgLmN1c3RvbV9ociB7XHJcbiAgICBoZWlnaHQ6IDEwcHg7XHJcbiAgICBiYWNrZ3JvdW5kOiAjZmYwMDg0OyAvKiBmYWxsYmFjayBmb3Igb2xkIGJyb3dzZXJzICovXHJcbiAgICBiYWNrZ3JvdW5kOiAtd2Via2l0LWxpbmVhci1ncmFkaWVudChcclxuICAgICAgdG8gcmlnaHQsXHJcbiAgICAgICMzMzAwMWIsXHJcbiAgICAgICNmZjAwODRcclxuICAgICk7IC8qIENocm9tZSAxMC0yNSwgU2FmYXJpIDUuMS02ICovXHJcbiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoXHJcbiAgICAgIHRvIHJpZ2h0LFxyXG4gICAgICAjMzMwMDFiLFxyXG4gICAgICAjZmYwMDg0XHJcbiAgICApOyAvKiBXM0MsIElFIDEwKy8gRWRnZSwgRmlyZWZveCAxNissIENocm9tZSAyNissIE9wZXJhIDEyKywgU2FmYXJpIDcrICovXHJcbiAgfVxyXG4gIC50b3BuYXYge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgIGJveC1zaGFkb3c6IDAgNHB4IDMwcHggLTFweCByZ2IoMjA0LCAyMDQsIDIwNCk7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGhlaWdodDogNzVweDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcclxuICB9XHJcbiAgLm5hdmJhciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjVmNWY1O1xyXG4gICAgYm94LXNoYWRvdzogMCA0cHggMzBweCAtMXB4IHJnYigyMDQsIDIwNCwgMjA0KTtcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgaGVpZ2h0OiA1MHB4O1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogbGVmdDtcclxuICB9XHJcbiAgXHJcbiAgLm5hdmJhciBhIHtcclxuICAgIGNvbG9yOiAjZmUzYTU2O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgQXJpYWwsIFJvYm90bywgT3h5Z2VuLCBVYnVudHUsXHJcbiAgICAgIENhbnRhcmVsbCwgRmlyYSBTYW5zLCBEcm9pZCBTYW5zLCBIZWx2ZXRpY2EgTmV1ZSwgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxLjI7XHJcbiAgICBsZXR0ZXItc3BhY2luZzogLTAuMjhweDtcclxuICAgIHBhZGRpbmc6IDVweCAxNnB4O1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gIH1cclxuICBcclxuICAvKiBTdHlsZSB0aGUgbGlua3MgaW5zaWRlIHRoZSBuYXZpZ2F0aW9uIGJhciAqL1xyXG4gIC50b3BuYXYgYSB7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbiAgXHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCBBcmlhbCwgUm9ib3RvLCBPeHlnZW4sIFVidW50dSxcclxuICAgICAgQ2FudGFyZWxsLCBGaXJhIFNhbnMsIERyb2lkIFNhbnMsIEhlbHZldGljYSBOZXVlLCBzYW5zLXNlcmlmICFpbXBvcnRhbnQ7XHJcbiAgICBmb250LXdlaWdodDogNTUwcHg7XHJcbiAgICBsaW5lLWhlaWdodDogMS4yO1xyXG4gICAgbGV0dGVyLXNwYWNpbmc6IC0wLjI4cHg7XHJcbiAgICBwYWRkaW5nOiA1cHggMTZweDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgIGZvbnQtc2l6ZTogMTdweDtcclxuICAgIGJvcmRlcjogc29saWQgMXB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNDBweDtcclxuICAgIGNvbG9yOiAjZmUzYTU2O1xyXG4gIH1cclxuICBcclxuICAjbG9nbyB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgY29sb3I6ICNmZTNhNTY7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBmb250LXNpemU6IDE3cHg7XHJcbiAgfVxyXG4gIFxyXG4gICNsb2dvX21vZGFsIHtcclxuICAgIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsIEFyaWFsLCBSb2JvdG8sIE94eWdlbiwgVWJ1bnR1LFxyXG4gICAgICBDYW50YXJlbGwsIEZpcmEgU2FucywgRHJvaWQgU2FucywgSGVsdmV0aWNhIE5ldWUsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgIG1hcmdpbi10b3A6IDQwcHg7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuMjtcclxuICAgIGxldHRlci1zcGFjaW5nOiAtMC4yOHB4O1xyXG4gICAgZmxvYXQ6IGNlbnRlcjtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgY29sb3I6ICNmZTNhNTY7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBmb250LXNpemU6IDI0cHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiA0MHB4O1xyXG4gIH1cclxuICBcclxuICAuZGFzaCB7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGhlaWdodDogNnB4O1xyXG4gICAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHJnYigyMjcsIDIyNywgMjI3KTtcclxuICB9XHJcbiAgXHJcbiAgLmRhc2ggc3BhbiB7XHJcbiAgICBwYWRkaW5nOiAwcHggMjBweDtcclxuICAgIGJhY2tncm91bmQ6IHJnYigyNTUsIDI1NSwgMjU1KTtcclxuICB9XHJcbiAgXHJcbiAgLnNvY2lhbF9idXR0b25zIHtcclxuICAgIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsIEFyaWFsLCBSb2JvdG8sIE94eWdlbiwgVWJ1bnR1LFxyXG4gICAgICBDYW50YXJlbGwsIEZpcmEgU2FucywgRHJvaWQgU2FucywgSGVsdmV0aWNhIE5ldWUsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbiAgICBsaW5lLWhlaWdodDogMS44O1xyXG4gICAgbGV0dGVyLXNwYWNpbmc6IC0wLjI4cHg7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgbWFyZ2luLXRvcDogMTVweDtcclxuICAgIHBhZGRpbmctdG9wOiA1cHg7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDVweDtcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDMwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICB9XHJcbiAgXHJcbiAgLyogQ2hhbmdlIHRoZSBjb2xvciBvZiBsaW5rcyBvbiBob3ZlciAqL1xyXG4gIC50b3BuYXYgYTpob3ZlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGRkO1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gIH1cclxuICAudG9wbmF2IC5pY29uIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgfVxyXG4gIFxyXG4gIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgICAudG9wbmF2IGE6bm90KDpmaXJzdC1jaGlsZCkge1xyXG4gICAgICBkaXNwbGF5OiBub25lO1xyXG4gICAgfVxyXG4gICAgLnRvcG5hdiBhLmljb24ge1xyXG4gICAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgfVxyXG4gIH1cclxuICBcclxuICAvKiBUaGUgXCJyZXNwb25zaXZlXCIgY2xhc3MgaXMgYWRkZWQgdG8gdGhlIHRvcG5hdiB3aXRoIEphdmFTY3JpcHQgd2hlbiB0aGUgdXNlciBjbGlja3Mgb24gdGhlIGljb24uIFRoaXMgY2xhc3MgbWFrZXMgdGhlIHRvcG5hdiBsb29rIGdvb2Qgb24gc21hbGwgc2NyZWVucyAoZGlzcGxheSB0aGUgbGlua3MgdmVydGljYWxseSBpbnN0ZWFkIG9mIGhvcml6b250YWxseSkgKi9cclxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDBweCkge1xyXG4gICAgLnRvcG5hdi5yZXNwb25zaXZlIHtcclxuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgfVxyXG4gICAgLnRvcG5hdi5yZXNwb25zaXZlIGEuaWNvbiB7XHJcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgcmlnaHQ6IDA7XHJcbiAgICAgIHRvcDogMDtcclxuICAgIH1cclxuICAgIC50b3BuYXYucmVzcG9uc2l2ZSBhIHtcclxuICAgICAgZmxvYXQ6IG5vbmU7XHJcbiAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgfVxyXG4gIH1cclxuICBcclxuICAuZ2lyaXNfbW9kYWwge1xyXG4gICAgZGlzcGxheTogbm9uZTsgLyogSGlkZGVuIGJ5IGRlZmF1bHQgKi9cclxuICAgIHBvc2l0aW9uOiBmaXhlZDsgLyogU3RheSBpbiBwbGFjZSAqL1xyXG4gICAgei1pbmRleDogMTsgLyogU2l0IG9uIHRvcCAqL1xyXG4gICAgcGFkZGluZy10b3A6IDEwMHB4OyAvKiBMb2NhdGlvbiBvZiB0aGUgYm94ICovXHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgdG9wOiAwO1xyXG4gICAgd2lkdGg6IDEwMCU7IC8qIEZ1bGwgd2lkdGggKi9cclxuICAgIGhlaWdodDogMTAwJTsgLyogRnVsbCBoZWlnaHQgKi9cclxuICAgIG92ZXJmbG93OiBhdXRvOyAvKiBFbmFibGUgc2Nyb2xsIGlmIG5lZWRlZCAqL1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDAsIDAsIDApOyAvKiBGYWxsYmFjayBjb2xvciAqL1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjQpOyAvKiBCbGFjayB3LyBvcGFjaXR5ICovXHJcbiAgfVxyXG4gIFxyXG4gIC5tb2RhbF9mYWRlIHtcclxuICAgIGRpc3BsYXk6IFwiZmxleFwiO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBcImNlbnRlclwiO1xyXG4gICAgdGV4dC1hbGlnbjogXCJjZW50ZXJcIjtcclxuICAgIGFuaW1hdGlvbjogZmFkZUluIGVhc2UgNHM7XHJcbiAgICAtd2Via2l0LWFuaW1hdGlvbjogZmFkZUluIGVhc2UgNHM7XHJcbiAgICAtbW96LWFuaW1hdGlvbjogZmFkZUluIGVhc2UgNHM7XHJcbiAgICAtby1hbmltYXRpb246IGZhZGVJbiBlYXNlIDRzO1xyXG4gICAgLW1zLWFuaW1hdGlvbjogZmFkZUluIGVhc2UgNHM7XHJcbiAgfVxyXG4gIEBrZXlmcmFtZXMgZmFkZUluIHtcclxuICAgIDAlIHtcclxuICAgICAgb3BhY2l0eTogMDtcclxuICAgIH1cclxuICAgIDEwMCUge1xyXG4gICAgICBvcGFjaXR5OiAxO1xyXG4gICAgfVxyXG4gIH1cclxuICBcclxuICBALW1vei1rZXlmcmFtZXMgZmFkZUluIHtcclxuICAgIDAlIHtcclxuICAgICAgb3BhY2l0eTogMDtcclxuICAgIH1cclxuICAgIDEwMCUge1xyXG4gICAgICBvcGFjaXR5OiAxO1xyXG4gICAgfVxyXG4gIH1cclxuICBcclxuICBALXdlYmtpdC1rZXlmcmFtZXMgZmFkZUluIHtcclxuICAgIDAlIHtcclxuICAgICAgb3BhY2l0eTogMDtcclxuICAgIH1cclxuICAgIDEwMCUge1xyXG4gICAgICBvcGFjaXR5OiAxO1xyXG4gICAgfVxyXG4gIH1cclxuICBcclxuICBALW8ta2V5ZnJhbWVzIGZhZGVJbiB7XHJcbiAgICAwJSB7XHJcbiAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICB9XHJcbiAgICAxMDAlIHtcclxuICAgICAgb3BhY2l0eTogMTtcclxuICAgIH1cclxuICB9XHJcbiAgXHJcbiAgQC1tcy1rZXlmcmFtZXMgZmFkZUluIHtcclxuICAgIDAlIHtcclxuICAgICAgb3BhY2l0eTogMDtcclxuICAgIH1cclxuICAgIDEwMCUge1xyXG4gICAgICBvcGFjaXR5OiAxO1xyXG4gICAgfVxyXG4gIH1cclxuICBcclxuICAuZ2lyaXNfbW9kYWxfY29udGVudCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmVmZWZlO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgcGFkZGluZzogMjBweDtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICM4ODg7XHJcbiAgICB3aWR0aDogNDUwcHg7XHJcbiAgICBoZWlnaHQ6IDYwMHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICB9XHJcbiAgXHJcbiAgLmdpcmlzX21vZGFsX2NvbnRlbnRfZXBvc3Rhe1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZlZmVmZTtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjODg4O1xyXG4gICAgd2lkdGg6IDQ1MHB4O1xyXG4gICAgaGVpZ2h0OiAzNTBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgfVxyXG4gIFxyXG4gIC5naXJpc19tb2RhbF9jbG9zZSB7XHJcbiAgICBjb2xvcjogI2FhYWFhYTtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIGZvbnQtc2l6ZTogMjhweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIH1cclxuICBcclxuICAuZ2lyaXNfbW9kYWxfY2xvc2U6aG92ZXIsXHJcbiAgLmdpcmlzX21vZGFsX2Nsb3NlOmZvY3VzIHtcclxuICAgIGNvbG9yOiAjMDAwO1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIH1cblxuXG5cblxuXG4iXSwic291cmNlUm9vdCI6IiJ9*/
+.giris_modal_close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.giris_modal_close:hover,
+.giris_modal_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-otomobil {
+  color: #fe3a56;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.28px;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+}
+
+nav {
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  color: #fff;
+  background: darkorange;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+}
+
+li a {
+  color: #fe3a56;
+}
+
+li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+  ul li:focus-within > ul, /* this is the line we add */
+  ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.dropdown{
+  width: 200px;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+.material-icons.md-96 {
+  font-size: 96px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
